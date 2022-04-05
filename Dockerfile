@@ -6,5 +6,7 @@ RUN unzip bonativo.zip
 RUN rm -rf bonativo.zip &&\
     cp -rf bonativo/* . &&\
     rm -rf bonativo
+    mkdir dinesh
+    touch dinesh.txt >> hello sir 
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
