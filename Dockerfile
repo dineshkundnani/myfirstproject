@@ -7,6 +7,6 @@ RUN rm -rf bonativo.zip &&\
     cp -rf bonativo/* . &&\
     rm -rf bonativo &&\
     mkdir dinesh &&\ 
-    touch dinesh/dinesh.txt >> hello sir 
+    touch dinesh/dinesh.html >> hello sir 
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
